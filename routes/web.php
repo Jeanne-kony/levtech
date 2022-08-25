@@ -13,4 +13,6 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('/','PostController@index');
+
+
+Route::get('/', 'PostController@index');
